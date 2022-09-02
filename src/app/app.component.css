@@ -1,0 +1,19 @@
+
+  .side {
+
+    min-height: 83vh;
+    display: flex;
+
+  }
+
+
+  @media screen and (max-width: 574px) {
+
+    .side{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    }
+
+  }
